@@ -1,0 +1,23 @@
+// its output is correct when we run the same program in dev c++ compiler
+#include <iostream>
+using namespace std;
+int decimaltobinary(int n)
+{
+    cout << "Binary number of  " << n << " number is  " << endl;
+    while (n > 0)
+    {
+        int bit = n % 2;
+        cout << bit << endl;
+        n = n / 2;
+           int i;
+        i++;
+        //our program also run if we use i++ here 
+    }
+}
+int main()
+{
+    int n;
+    cout << "please enter the number : " << endl;
+    cin >> n;
+    decimaltobinary(n);
+}
