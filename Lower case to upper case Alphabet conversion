@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int lowertouppercase()
+{
+    char c, lowercase, uppercase;
+  /*  cout << "  Enter lower case of alphabet :  " << endl;
+    cin >> lowercase;
+    cout << "lower case =" << lowercase << endl;
+    cout << "  Enter upper case of alphabet what you want to print: "<<endl;
+            cin >>
+        uppercase;
+    cout << "upper case = " << uppercase << endl;
+
+    cout << c - lowercase + uppercase << endl;*/
+    cout<<c - 'a' + 'A'<<endl;
+}
+int main()
+{
+    lowertouppercase();
+}
